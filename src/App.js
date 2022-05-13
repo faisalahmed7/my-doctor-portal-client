@@ -8,7 +8,7 @@ import Login from './Pages/Login/Login';
 
 function App() {
   return (
-    <div className='px-12'>
+    <div >
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home />} />
