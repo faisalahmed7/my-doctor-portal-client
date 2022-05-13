@@ -3,6 +3,7 @@ import fluoride from '../../assets/images/fluoride.png'
 import cavity from '../../assets/images/cavity.png'
 import whitening from '../../assets/images/whitening.png'
 import HomeService from './HomeService';
+import Treatment from './Treatment';
 
 const HomeServices = () => {
     const services = [
@@ -29,8 +30,8 @@ const HomeServices = () => {
         },
     ]
     return (
-        <div className='text-center my-20'>
-            <div>
+        <div className='my-28'>
+            <div className='text-center'>
                 <h4 className='text-primary text-2xl font-bold'>OUR SERVICES</h4>
                 <h2 className='text-4xl'>Services We Provide</h2>
             </div>
@@ -42,6 +43,9 @@ const HomeServices = () => {
 
                     </HomeService>)
                 }
+            </div>
+            <div>
+                <Treatment></Treatment>
             </div>
         </div>
     );
